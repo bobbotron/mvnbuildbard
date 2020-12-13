@@ -15,6 +15,12 @@ public class MavenBardSpy extends org.apache.maven.eventspy.AbstractEventSpy
 	private final BardPlayer player = new BardPlayer();
 	private final MusicGenerator generator = new MusicGenerator();
 
+    @Override
+    public void init(Context context) throws Exception
+    {
+        player.play(generator.generateStartupNoise());
+    }
+	
 	@Override
 	public void onEvent(Object event) throws Exception
 	{
