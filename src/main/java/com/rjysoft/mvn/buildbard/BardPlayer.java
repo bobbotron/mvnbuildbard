@@ -1,4 +1,4 @@
-package com.rjysoft.mvn.test.maven.listener;
+package com.rjysoft.mvn.buildbard;
 
 import javax.sound.midi.MidiUnavailableException;
 import org.jfugue.pattern.Pattern;

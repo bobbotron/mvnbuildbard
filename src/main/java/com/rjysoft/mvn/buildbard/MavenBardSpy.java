@@ -1,4 +1,4 @@
-package com.rjysoft.mvn.test.maven.listener;
+package com.rjysoft.mvn.buildbard;
 
 import org.apache.maven.eventspy.EventSpy;
 import org.apache.maven.execution.MavenExecutionResult;
